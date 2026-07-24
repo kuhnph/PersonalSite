@@ -2606,7 +2606,8 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image img {
+		.image img,
+		.image video {
 			display: block;
 		}
 
@@ -2640,7 +2641,8 @@ input, select, textarea {
 				margin-top: 0;
 			}
 
-			.image.fit img {
+			.image.fit img,
+			.image.fit video {
 				width: 100%;
 			}
 
